@@ -1,5 +1,25 @@
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 
+.title {
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Dovemayo_gothic';
+  
+}
+
+.content {
+    font-size: 180%;
+    font-family: 'Dovemayo_gothic';
+    font-weight: lighter;
+   text-align: center;
+}
