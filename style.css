@@ -27,19 +27,10 @@ html {
 }
 
 .content {
-font-size: 180%;
+font-size: 185%;
 font-family: 'Cafe24Danjunghae';
 font-weight: lighter;
 text-align: center;
 color: #755139;
-}
-
-.d {
-  text-align: center;
-
-}
-
-.e {
-  text-align: center;
-
+line-height: 160%;
 }
