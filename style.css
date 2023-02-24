@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'Dovemayo_gothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-family: 'Cafe24Danjunghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-SpecialA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -8,18 +15,21 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #F2EDD7;
 }
 
 .title {
-    text-align: center;
-    font-size: 400%;
-    font-family: 'Dovemayo_gothic';
-  
+  text-align: center;
+  font-size: 400%;
+  font-family: 'Cafe24Danjunghae';
+  font-weight:'bold';
+  color: #755139;
 }
 
 .content {
-    font-size: 180%;
-    font-family: 'Dovemayo_gothic';
-    font-weight: lighter;
-   text-align: center;
+font-size: 180%;
+font-family: 'Cafe24Danjunghae';
+font-weight: lighter;
+text-align: center;
+color: #755139;
 }
