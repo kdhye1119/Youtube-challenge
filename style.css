@@ -15,7 +15,9 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #F2EDD7;
+  background-color: #FAEBEF;
+ transform: translate(0, 10%);
+
 }
 
 .title {
@@ -23,14 +25,16 @@ html {
   font-size: 450%;
   font-family: 'Cafe24Danjunghae';
   font-weight:'bold';
-  color: #755139;
+  color: #333D79;
+   transform: translate(0, -850%);
 }
 
 .content {
 font-size: 200%;
 font-family: 'Cafe24Danjunghae';
 font-weight: lighter;
-text-align: center;
-color: #755139;
+text-align: right;
+color: #00B1D2;
 line-height: 160%;
+transform: translate(-5%, -330%);
 }
